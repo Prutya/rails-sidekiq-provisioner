@@ -20,19 +20,20 @@ Assuming you do some image processing in your Rails app.
 ## Usage
 Populate you [**Gemfile**](http://bundler.io/gemfile.html) with required gems.
 
-```
+```ruby
 # ./Gemfile
 
-gem 'mini_magick',     '~> 4.8.0'
+# ...
 gem 'pg',              '~> 0.18'
 gem 'rails',           '~> 5.1.3'
 gem 'rest-client',     '~> 2.0.2'
 gem 'sidekiq',         '~> 5.0.4'
+# ...
 ```
 
 Clone this repository to your project folder and modify your [**Vagrantfile**](https://www.vagrantup.com/docs/vagrantfile/).
 
-```
+```ruby
 # ./Vagrantfile
 
 VAGRANT_API_VERSION = '2'
@@ -44,18 +45,15 @@ Vagrant.configure(VAGRANT_API_VERSION) do |config|
   # Synced folder settings
   config.vm.synced_folder '.', '/home/vagrant/app'
 
-  ...
+  # ...
 
   config.vm.provision :shell do |s|
     # By convention, your provisioning scripts should be put into
     # the ./vagrant folder
     s.path = 'vagrant/provision.sh'
   end
-
-  ...
-
+  # ...
 end
-
 ```
 
 ## Acknowledgements
