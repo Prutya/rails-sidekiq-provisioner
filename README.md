@@ -56,6 +56,14 @@ Vagrant.configure(VAGRANT_API_VERSION) do |config|
 end
 ```
 
+Create a `.ruby-version` file. Example:
+
+```
+ruby-2.4.1
+```
+
+Run `vagrant up`.
+
 ## Acknowledgements
 This script would not have been created without the help of these articles. Thank you!
 
