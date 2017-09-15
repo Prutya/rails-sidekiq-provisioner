@@ -1,3 +1,5 @@
+#!/bin/sh
+
 _PROVISIONER_DIR='/home/vagrant/app/vagrant'
 
 _TEMPLATE_PATH="${_PROVISIONER_DIR}/sidekiq/sidekiq.service"

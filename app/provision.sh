@@ -1,3 +1,5 @@
+#!/bin/sh
+
 cd /home/vagrant/app
 
 # Install gems

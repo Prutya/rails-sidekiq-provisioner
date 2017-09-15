@@ -1,3 +1,5 @@
+#!/bin/sh
+
 _PROVISIONER_DIR='/home/vagrant/app/vagrant'
 _REDIS_PATH='/etc/redis'
 _REDIS_CONFIG_PATH="${_REDIS_PATH}/redis.conf"

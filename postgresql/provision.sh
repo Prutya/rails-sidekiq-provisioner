@@ -1,3 +1,5 @@
+#!/bin/sh
+
 _DB_USER='vagrant'
 _DB_DEV_NAME='app_dev'
 _DB_TEST_NAME='app_test'

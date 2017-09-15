@@ -1,3 +1,5 @@
+#!/bin/sh
+
 _RUBY_VERSION="$(cat ~/app/.ruby-version)" # Read Ruby version from .ruby-version
 
 

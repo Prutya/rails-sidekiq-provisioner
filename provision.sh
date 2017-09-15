@@ -1,3 +1,5 @@
+#!/bin/sh
+
 _APP_DIR='/home/vagrant/app'
 _BASH_PROFILE='/home/vagrant/.bash_profile'
 _PROVISIONER_DIR="${_APP_DIR}/vagrant"
